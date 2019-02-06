@@ -1,0 +1,62 @@
+/****************************************************************************************************
+* Byron Mitchell
+* 2/3/2019 - 11:47 PM
+*
+* This is the source code for developing the Start Menu functionality of our applicaiton.
+****************************************************************************************************/
+#include <iostream>
+#include <list>
+using namespace std;
+
+
+
+
+class StartMenu {
+
+void main (){
+	Start();
+	Programs();
+	Restart();
+}
+public int Start(icon){
+ icon =  new Start();
+if (icon = 1)
+	icon = Programs();
+else
+	icon = 0;
+	return icon;
+}
+private char Programs(function){
+	list<const char*> programs = {"File Manager", "Task Manager", "Internet Browser"}
+	while(i<=programs; i = 0; i++)
+		if (i = File Manager)
+			cout << "You have opened the File Manager";
+		else if (i = Task Manager)
+			cout << "You have opened the Task Manager";
+		else if (i = Internet Browser)
+			cout << "You have opened the Internet Browser";
+	
+	function = programs;
+	return function;
+}
+
+private bool Restart(r){
+	char yes == True;
+	char no == False;
+	r = cout << "Are you sure you want to restart?" + "yes" + yes "or" + "no" + no;
+	if (r = yes )
+		cout << "Here is where the application will restart";
+		return r;
+	if (r = no)
+		return r;
+
+
+
+
+
+
+
+
+
+
+}
